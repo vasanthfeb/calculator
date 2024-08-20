@@ -1,0 +1,46 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.vas{
+    justify-content: space-evenly !important;
+}
+body{
+    background-color: rgba(255, 255, 0, 0.321);
+}
+.form-control{
+    border: 3px solid red;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: rgba(255, 255, 0, 0.097);
+}
+.btn-danger{
+    background-color: red !important;
+}
+.form-control:focus{
+    border: 3px solid red !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px !important;
+}
+#out{
+    color: red !important;
+    font-weight: 700;
+    font-size: x-large;
+}
+.vass{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    padding: 50px;
+    border-radius: 5px;
+}
+body{
+    overflow-y: hidden !important;
+}
+
+
+@media only screen and(max-width:768px) {
+    .container{
+       overflow-y: hidden !important;
+       height: 30vh !important;
+    }
+   
+}
